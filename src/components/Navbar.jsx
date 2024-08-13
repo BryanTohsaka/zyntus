@@ -43,7 +43,7 @@ const Navbar = () => {
       {/* Barra de navegación */}
       <div className="bg-gradient-to-b from-rich-black to-rich-black/0 backdrop-blur-lg w-screen h-20 flex items-center justify-between px-5 fixed z-20 ">
         <Link to="/">
-          <img src={logo} alt="Logo" className="w-fit h-10 logo" />
+          <img src={logo} alt="Logo" className="w-10 logo" />
         </Link>
 
         {/* Menú de escritorio */}
