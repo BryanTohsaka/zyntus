@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply font-inter;
+}
+body{
+    @apply bg-rich-black
+}
+
+.navbar-list li:hover{
+    color: #00BA76;
+    transition: all .3s ease-in-out;
+}
+.menu-items-mobile li{
+    @apply py-4;
+}
+
+.logo:hover{
+    filter: drop-shadow(0px 0px 10px #00BA76);
+    transition: all .3s ease-in-out;
+}
